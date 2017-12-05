@@ -1,0 +1,86 @@
+html{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+     
+.firstImg{
+	background-image: url(../images/taxi.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: bottom;
+	margin:0;
+	z-index: -200;
+	padding-top: 3em;
+}
+.primaryTitles{
+	margin-bottom: 3em;
+}
+.primaryTitles h4{
+	font-weight: 600;
+	line-height: .7em;
+}
+.travel{
+
+	font-weight: 600;
+}
+
+.travel img{
+
+	padding-left: .2em;
+	vertical-align: -10px;
+}
+.lines{
+	margin: 2em 0 3em ;
+
+}
+.lines::after{
+    content:"";
+    border-bottom: 1px solid white;
+    padding: 0 5em;
+     margin-left: 3em;
+
+}
+ .lines::before{
+    content:"";
+    border-bottom: 1px solid white;
+    padding: 0 5em;
+    margin-right: 3em;
+    margin-left: 1.5em;
+}
+.myOwnBorder{
+	border: 1px solid white;
+}
+.myOwnBorder img{
+	padding: 2em;
+	width: 80%;
+	
+}
+.secondImg{
+	background-image: url(../images/conduce.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: bottom;
+	margin:0;
+	z-index: -200;
+}
+.areaBox{
+	padding:2em !important;
+}
+.opacity {
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+}
+.lines::after{
+    content:"";
+    border-bottom: 1px solid white;
+    padding: 0 5em;
+     margin-left: 3em;
+
+}
+ .lines::before{
+    content:"";
+    border-bottom: 1px solid white;
+    padding: 0 5em;
+    margin-right: 3em;
+    margin-left: 1.5em;
+}
+.
