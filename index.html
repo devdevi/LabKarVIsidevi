@@ -18,11 +18,36 @@
           <div class="nav-wrapper container">
             <a href="#" class="brand-logo"><img src="assets/images/logoForma.png" alt="">
             <ul class="right hide-on-med-and-down">
-              <li><a href="#" class='black-text'>Viaja</a></li>
-              <li><a href="#" class='black-text'>Conduce</a></li>
-              <li><a href="#" class='black-text'>Inicia Sesión</a></li>
-             
+              <li><a class="waves-effect waves-light btn white black-text ">Viaje</a></li>
+              <li><a class="waves-effect waves-light btn white black-text " href="">Conduce</a></li>
+              <li> <a class="waves-effect waves-light btn white black-text modal-trigger" href="#modal1">Inicia Sesión</a></li>
             </ul>
+            <!-- Modal LOGIN --> 
+              <div id="modal1" class="modal">
+                  <div class="modal-content white black-text center ">
+                      <div class="row">
+                        <div class=" pull-s3 col s6 offset-s6">
+                          <form method="POST" action="">
+                            <div class="input-field">
+                              
+                              <label for="nombre"><i class="fa fa-user-secret black-text" aria-hidden="true"></i>&nbsp Username</label>
+                              <input type="text" name="nombre" required>
+                            </div>
+
+                            <div class="input-field">
+                               <label for="nombre"><i class="fa fa-unlock-alt black-text" aria-hidden="true"></i>&nbsp  Password</label>
+                              <input type="text" name="nombre" required>
+                            </div>
+                            
+                            <p class="center-align">
+                              <button class="waves-effect waves-light amber btn" type="submit">LOGING</button>
+                            </p>
+                          </form>
+                            <p class='black-text'>Forgot password?<a href="#" class='red-text'> Click Here!</a></p>
+                        </div>
+                      </div>
+                 </div>
+              </div>
 
             <ul id="nav-mobile" class="side-nav">
               <li><a href="#" class='black-text'>Viaja</a></li>
@@ -181,7 +206,6 @@
           </div>
         </div>
       </section>
-
 <!--FOOTER-->
       <footer class='hide-on-med-and-down page-footer  grey darken-4 white-text'>
         <div class="section">
@@ -252,6 +276,8 @@
                     <li><a class="grey-text text-lighten-3" href="#!">Seguridad</a></li>
                   </ul>
                 </div>
+
+
                 
                 <div class="col s6 giveMePadIcon">
                   <div>
@@ -275,6 +301,7 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="assets/js/materialize.min.js"></script>
       <script type="text/javascript" src="assets/js/app.js"></script>
+ 
 
     </body>
   </html>
