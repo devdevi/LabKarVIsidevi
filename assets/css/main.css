@@ -18,6 +18,10 @@ html{
 	font-weight: 600;
 	line-height: .8em;
 }
+.primaryTitles h1{
+	font-weight: 700;
+	line-height: .8em;
+}
 .travel{
 	font-weight: 600;
 	padding-bottom: 2em;
@@ -47,13 +51,19 @@ html{
     margin-right: 3em;
     margin-left: 1.5em;
 }
-.myOwnBorder{
+.myOwnBorder, .myOwnBorderMovile{
 	border: 1px solid white;
 }
 .myOwnBorder img{
 	padding: 2em;
 	width: 90%;
 	
+}
+.myOwnBorderMovile img{
+	width: 50%;
+}
+.myOwnBorderMovile h4{
+	font-weight: 700;
 }
 .aParagraf{
 	margin: 4em;
@@ -71,6 +81,14 @@ h5 {
 	margin:0;
 	z-index: -200;
 }
+.secondImgMovile{
+	background-image: url(../images/conduce.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: bottom;
+	margin:0;
+	z-index: -200;
+}
 
 .areaBox{
 
@@ -81,6 +99,15 @@ h5 {
 	padding-top:3em !important;
 	padding-bottom:3em !important;
 	padding-left: .5em  !important;
+}
+.areaBoxMapMovile{
+	
+}
+.areaBoxMovile{
+	padding: 2em !important;
+	padding-bottom:6.3em !important;
+	padding-top: 8em !important;
+
 }
 .opacity {
    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -116,18 +143,47 @@ h5 {
 	margin-left: 1em;
 	font-size: .8em;
 }
+.falseInputMovile{
+	border: 1px solid white ;
+	background-color: transparent ;
+	border-radius: .5em ;
+	padding: .5em 6em .5em 1em;
+	margin-left: 1em;
+	font-size: 1.5em;
+}
+.falseInputTowMovile{
+	border: 1px solid white ;
+	background-color: transparent ;
+	border-radius: .5em ;
+	padding: .5em 10em .5em 1em;
+	margin-left: 1em;
+	font-size: 1.5em;
+}
 .makeRoute a{
 	margin-left: 4em;
 	font-weight: 900;
+}
+.makeRoute a p{
+	font-weight: 900;
+	font-size: 1.5em;
+	margin:0;
+}
+.makeRouteMovile a p{
+	font-weight: 900;
+	font-size: 1.3em;
+	margin:0;
 
 }
 .marginHere{
 	margin-bottom: 2em;
+
 }
 .myOwnBorderIframe{
-	border: 1px solid white;
+	outline: 1px solid white;
 	padding: 1em !important;
+	margin-top: 1em;
 }
+
 .areaBoxFooter{
 	padding:5em !important;
 	padding-bottom:0 !important;
@@ -146,4 +202,11 @@ h5 {
 }
 .linksLi ul li{
 	padding: .5em;
+}
+.giveMePadIcon i{
+	padding-right: 1em;
+}
+.giveMePadIcon img{
+	width: 50%;
+	margin-top: 2em;
 }
