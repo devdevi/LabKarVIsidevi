@@ -71,8 +71,11 @@ h5 {
 	margin:0;
 	z-index: -200;
 }
+
 .areaBox{
+
 	padding:2em !important;
+	padding-top: 4em !important;
 }
 .areaBoxMap{
 	padding-top:3em !important;
@@ -80,7 +83,8 @@ h5 {
 	padding-left: .5em  !important;
 }
 .opacity {
-   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
 }
 .lines::after{
     content:"";
@@ -113,7 +117,7 @@ h5 {
 	font-size: .8em;
 }
 .makeRoute a{
-	margin-left: 3em;
+	margin-left: 4em;
 	font-weight: 900;
 
 }
