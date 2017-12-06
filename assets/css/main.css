@@ -1,7 +1,10 @@
 html{
     font-family: 'Nunito', sans-serif;
 }
-     
+ .myBoton{
+ 	border: 0 !important;
+
+ }   
 .firstImg{
 	background-image: url(../images/taxi.jpg);
 	height: 100vh;
